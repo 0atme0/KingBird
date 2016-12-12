@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE6D6367A6F4F09A15FF56C8 /* libPods-KingBirdTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D53079322E2C24271EA28E0B /* libPods-KingBirdTest.a */; };
 		E313AABF1DFEAC080007A10E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E313AABE1DFEAC080007A10E /* AppDelegate.swift */; };
 		E313AAC11DFEAC080007A10E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E313AAC01DFEAC080007A10E /* ViewController.swift */; };
 		E313AAC41DFEAC080007A10E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E313AAC21DFEAC080007A10E /* Main.storyboard */; };
 		E313AAC61DFEAC080007A10E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E313AAC51DFEAC080007A10E /* Assets.xcassets */; };
 		E313AAC91DFEAC080007A10E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E313AAC71DFEAC080007A10E /* LaunchScreen.storyboard */; };
+		E35B653E1DFF235700503CE5 /* Info.svg in Resources */ = {isa = PBXBuildFile; fileRef = E35B653C1DFF235700503CE5 /* Info.svg */; };
+		E35B653F1DFF235700503CE5 /* Pin.svg in Resources */ = {isa = PBXBuildFile; fileRef = E35B653D1DFF235700503CE5 /* Pin.svg */; };
+		E35B65431DFF251E00503CE5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35B65421DFF251E00503CE5 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		136FEC9C7E2069704C082946 /* Pods-KingBirdTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingBirdTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KingBirdTest/Pods-KingBirdTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D53079322E2C24271EA28E0B /* libPods-KingBirdTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KingBirdTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1179F575B814015C1AFD942 /* Pods-KingBirdTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KingBirdTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-KingBirdTest/Pods-KingBirdTest.release.xcconfig"; sourceTree = "<group>"; };
 		E313AABB1DFEAC080007A10E /* KingBirdTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KingBirdTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E313AABE1DFEAC080007A10E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E313AAC01DFEAC080007A10E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,10 @@
 		E313AAC51DFEAC080007A10E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E313AAC81DFEAC080007A10E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E313AACA1DFEAC080007A10E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E35B653B1DFF234400503CE5 /* bridging-header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bridging-header.h"; sourceTree = "<group>"; };
+		E35B653C1DFF235700503CE5 /* Info.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Info.svg; sourceTree = "<group>"; };
+		E35B653D1DFF235700503CE5 /* Pin.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Pin.svg; sourceTree = "<group>"; };
+		E35B65421DFF251E00503CE5 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +40,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE6D6367A6F4F09A15FF56C8 /* libPods-KingBirdTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C1C8B5CFA1CAA31972D56E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				136FEC9C7E2069704C082946 /* Pods-KingBirdTest.debug.xcconfig */,
+				E1179F575B814015C1AFD942 /* Pods-KingBirdTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		772DD2A2736311D49FE31B19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D53079322E2C24271EA28E0B /* libPods-KingBirdTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E313AAB21DFEAC070007A10E = {
 			isa = PBXGroup;
 			children = (
 				E313AABD1DFEAC080007A10E /* KingBirdTest */,
 				E313AABC1DFEAC080007A10E /* Products */,
+				4C1C8B5CFA1CAA31972D56E0 /* Pods */,
+				772DD2A2736311D49FE31B19 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +87,32 @@
 			children = (
 				E313AABE1DFEAC080007A10E /* AppDelegate.swift */,
 				E313AAC01DFEAC080007A10E /* ViewController.swift */,
+				E35B65421DFF251E00503CE5 /* Extensions.swift */,
 				E313AAC21DFEAC080007A10E /* Main.storyboard */,
 				E313AAC51DFEAC080007A10E /* Assets.xcassets */,
 				E313AAC71DFEAC080007A10E /* LaunchScreen.storyboard */,
 				E313AACA1DFEAC080007A10E /* Info.plist */,
+				E35B65411DFF236800503CE5 /* Support */,
+				E35B65401DFF236100503CE5 /* Images */,
 			);
 			path = KingBirdTest;
+			sourceTree = "<group>";
+		};
+		E35B65401DFF236100503CE5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E35B653C1DFF235700503CE5 /* Info.svg */,
+				E35B653D1DFF235700503CE5 /* Pin.svg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E35B65411DFF236800503CE5 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				E35B653B1DFF234400503CE5 /* bridging-header.h */,
+			);
+			name = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E313AACD1DFEAC080007A10E /* Build configuration list for PBXNativeTarget "KingBirdTest" */;
 			buildPhases = (
+				42313D00516D702D836EA204 /* [CP] Check Pods Manifest.lock */,
 				E313AAB71DFEAC070007A10E /* Sources */,
 				E313AAB81DFEAC070007A10E /* Frameworks */,
 				E313AAB91DFEAC070007A10E /* Resources */,
+				1D985C9E27EA970FD8D36303 /* [CP] Embed Pods Frameworks */,
+				C115B28E0A06178D734807EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -95,6 +149,7 @@
 				TargetAttributes = {
 					E313AABA1DFEAC070007A10E = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 598SD24BP7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,11 +179,61 @@
 			files = (
 				E313AAC91DFEAC080007A10E /* LaunchScreen.storyboard in Resources */,
 				E313AAC61DFEAC080007A10E /* Assets.xcassets in Resources */,
+				E35B653E1DFF235700503CE5 /* Info.svg in Resources */,
+				E35B653F1DFF235700503CE5 /* Pin.svg in Resources */,
 				E313AAC41DFEAC080007A10E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D985C9E27EA970FD8D36303 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KingBirdTest/Pods-KingBirdTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42313D00516D702D836EA204 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C115B28E0A06178D734807EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KingBirdTest/Pods-KingBirdTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E313AAB71DFEAC070007A10E /* Sources */ = {
@@ -136,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E313AAC11DFEAC080007A10E /* ViewController.swift in Sources */,
+				E35B65431DFF251E00503CE5 /* Extensions.swift in Sources */,
 				E313AABF1DFEAC080007A10E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +314,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -250,6 +357,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -257,25 +365,35 @@
 		};
 		E313AACE1DFEAC080007A10E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 136FEC9C7E2069704C082946 /* Pods-KingBirdTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 598SD24BP7;
 				INFOPLIST_FILE = KingBirdTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-11.KingBirdTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/KingBirdTest/bridging-header.h";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E313AACF1DFEAC080007A10E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1179F575B814015C1AFD942 /* Pods-KingBirdTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 598SD24BP7;
 				INFOPLIST_FILE = KingBirdTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-11.KingBirdTest";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/KingBirdTest/bridging-header.h";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -298,6 +416,7 @@
 				E313AACF1DFEAC080007A10E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

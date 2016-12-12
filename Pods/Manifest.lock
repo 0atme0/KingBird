@@ -1,0 +1,22 @@
+PODS:
+  - GoogleMaps (2.0.1):
+    - GoogleMaps/Maps (= 2.0.1)
+  - GoogleMaps/Base (2.0.1)
+  - GoogleMaps/Maps (2.0.1):
+    - GoogleMaps/Base (= 2.0.1)
+  - RaptureXML (1.0.1)
+  - UIImage+SVG (0.1):
+    - RaptureXML (~> 1.0.1)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - UIImage+SVG (~> 0.1)
+
+SPEC CHECKSUMS:
+  GoogleMaps: f09da64fc987c1aa29394567c3cab5a3df83c402
+  RaptureXML: b5c33c04c1a4adfd8ad0d5463329a31820596e82
+  UIImage+SVG: 23a2edbb60b0f4c083068963086e309ebd8be592
+
+PODFILE CHECKSUM: f772ce4d7243ad2bf1b7e48870963c268e481249
+
+COCOAPODS: 1.1.0.rc.2

@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A66CE7331617483503C61FD6309E237 /* UIImage+SVG.m in Sources */ = {isa = PBXBuildFile; fileRef = D92C597F4F50528BDC714F721BA67ACC /* UIImage+SVG.m */; };
+		2087B1E62B559EC65D03C7547D892749 /* RaptureXML-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 801E9F271FEC6CF345724860D82F5757 /* RaptureXML-dummy.m */; };
+		259C4660DB4BFE8C474607BB3D62AB5A /* Pods-KingBirdTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5380C03F805BCC4C9037D53537D7C9A /* Pods-KingBirdTest-dummy.m */; };
+		2B009F69D2A764251B3B025D1B2B7DD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		59262384C1CAB2095DA9A8908F9297AE /* RXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CA5574D7AD19EDC5E1376D4A62B7E49 /* RXMLElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99CB0F7C34238A106311FFBD28F2184C /* SVGImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 673CB570712CAC2F4FA9EF0D607012C5 /* SVGImageCache.m */; };
+		A3055EA97FD63280735BC7805C6F7F30 /* PocketSVG.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A1F5F39A3197B692725C78D2653922C /* PocketSVG.m */; };
+		AEE427212EDEA322C753D3717ED78672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		AF237CA007154D002EBEC32B887E8F6B /* UIImage+SVG.h in Headers */ = {isa = PBXBuildFile; fileRef = FBADDCC8A4E2DA36D9F35065E7511B63 /* UIImage+SVG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF81DB5DDD50F413C17A38D943355BCA /* RXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FF0CA104D95DE75BE780E95C5547AEF /* RXMLElement.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C3949E303DB35B088739627C038D7B0E /* SVGImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = E1E4AE383C5E0D7A41AE42D8C90651B3 /* SVGImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C57BC792F26CB3AA286DF6C34C6F611A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		EA0B2819C2AA22DD9687971A1F2B00C7 /* PocketSVG.h in Headers */ = {isa = PBXBuildFile; fileRef = 33C2C1C34885A95369CAAF8309985965 /* PocketSVG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB189B02ADD350670D36FE58EA25BEB9 /* UIImage+SVG-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0353B64F4D79415A8AB1B0154702F4B8 /* UIImage+SVG-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		368CE029016EA5978FB544882F383628 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE79A19D211908A6811984B1DCC6898;
+			remoteInfo = RaptureXML;
+		};
+		E9CD0861B053FCAB6751C0C3D85711D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC884F5CF4170A006714A31371F8C66;
+			remoteInfo = "UIImage+SVG";
+		};
+		FC4ECC77370E5FCDAC168EEA4D915BF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAE79A19D211908A6811984B1DCC6898;
+			remoteInfo = RaptureXML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0353B64F4D79415A8AB1B0154702F4B8 /* UIImage+SVG-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SVG-dummy.m"; sourceTree = "<group>"; };
+		0FF0CA104D95DE75BE780E95C5547AEF /* RXMLElement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RXMLElement.m; path = RaptureXML/RXMLElement.m; sourceTree = "<group>"; };
+		140FDF526703A074A44DA62500157806 /* UIImage+SVG-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+SVG-prefix.pch"; sourceTree = "<group>"; };
+		1EB3498BA9F7BC5AB433565CE72D1A4E /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Subspecs/Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		27E198632ABB566CA1286B85C8084542 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Subspecs/Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		2CC3C8CA40B24CB021E23FFCEA9BC84C /* libUIImage+SVG.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libUIImage+SVG.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33C2C1C34885A95369CAAF8309985965 /* PocketSVG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PocketSVG.h; path = Classes/PocketSVG.h; sourceTree = "<group>"; };
+		3537B037F5F7BB7FC05C754CD28ED49E /* Pods-KingBirdTest-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KingBirdTest-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4472973BED9FE89A38441F9D306C561D /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Subspecs/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		44F25D81EBA2B09789C30234B4818791 /* libRaptureXML.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRaptureXML.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		483019C0935F10AAD411E9F97A1F71C5 /* UIImage+SVG.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIImage+SVG.xcconfig"; sourceTree = "<group>"; };
+		4A1F5F39A3197B692725C78D2653922C /* PocketSVG.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PocketSVG.m; path = Classes/PocketSVG.m; sourceTree = "<group>"; };
+		4A9231D8D38E5840CBF53C898F743034 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Subspecs/Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		5F07286C6D770DAA6CCAF12648706029 /* Pods-KingBirdTest-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KingBirdTest-acknowledgements.plist"; sourceTree = "<group>"; };
+		673CB570712CAC2F4FA9EF0D607012C5 /* SVGImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVGImageCache.m; path = Classes/SVGImageCache.m; sourceTree = "<group>"; };
+		6CA5574D7AD19EDC5E1376D4A62B7E49 /* RXMLElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RXMLElement.h; path = RaptureXML/RXMLElement.h; sourceTree = "<group>"; };
+		6F7137776A49AA354F0C4D4DD34B7BCE /* libPods-KingBirdTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KingBirdTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		755B6F16C01C0FFF9449FA71B71ECA89 /* Pods-KingBirdTest-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KingBirdTest-resources.sh"; sourceTree = "<group>"; };
+		801E9F271FEC6CF345724860D82F5757 /* RaptureXML-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RaptureXML-dummy.m"; sourceTree = "<group>"; };
+		8DF36C91207FABF3874316BF2B22656B /* Pods-KingBirdTest-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KingBirdTest-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C8AD595C04995299CC73D31F0F7280A /* RaptureXML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RaptureXML.xcconfig; sourceTree = "<group>"; };
+		BE873CA46421AA37CF9CBF191FFBA6D5 /* Pods-KingBirdTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KingBirdTest.debug.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D3BBF0AD639371F8E70E61B55EE23FD8 /* RaptureXML-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RaptureXML-prefix.pch"; sourceTree = "<group>"; };
+		D5380C03F805BCC4C9037D53537D7C9A /* Pods-KingBirdTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KingBirdTest-dummy.m"; sourceTree = "<group>"; };
+		D92C597F4F50528BDC714F721BA67ACC /* UIImage+SVG.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+SVG.m"; path = "Classes/UIImage+SVG.m"; sourceTree = "<group>"; };
+		E1E4AE383C5E0D7A41AE42D8C90651B3 /* SVGImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVGImageCache.h; path = Classes/SVGImageCache.h; sourceTree = "<group>"; };
+		FBADDCC8A4E2DA36D9F35065E7511B63 /* UIImage+SVG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+SVG.h"; path = "Classes/UIImage+SVG.h"; sourceTree = "<group>"; };
+		FCBD23420392BF7D3A10B67C3EA15DFB /* Pods-KingBirdTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KingBirdTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		142664FB92FF6DDB896769D2C69D9C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B009F69D2A764251B3B025D1B2B7DD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37EEDC337BF7D7F4C1E024D001AC6968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57BC792F26CB3AA286DF6C34C6F611A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E68EE377AB15AB858B02DA168D60703D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEE427212EDEA322C753D3717ED78672 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		3FBE5DBE92DE188531706C773CF852F7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				524AEDA6A24A909A4EE60276F08B041D /* Pods-KingBirdTest */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		425C7C7D99C8A2BC7604F9D6397CA749 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				7B3F4C81E75C3A064CD6303086ED9CA1 /* Base */,
+				DEC04FBC07E9CA75B80FE104AB2062B1 /* Maps */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		4AC588DF86928B0FC198AD45387822F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				483019C0935F10AAD411E9F97A1F71C5 /* UIImage+SVG.xcconfig */,
+				0353B64F4D79415A8AB1B0154702F4B8 /* UIImage+SVG-dummy.m */,
+				140FDF526703A074A44DA62500157806 /* UIImage+SVG-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/UIImage+SVG";
+			sourceTree = "<group>";
+		};
+		4FEEA42E1D983C939D16C3496FE6A287 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				425C7C7D99C8A2BC7604F9D6397CA749 /* GoogleMaps */,
+				90CD9226E81AB6EEA6499D982AC18AC6 /* RaptureXML */,
+				899CD6976E5FA7F2D728251B0288F170 /* UIImage+SVG */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		524AEDA6A24A909A4EE60276F08B041D /* Pods-KingBirdTest */ = {
+			isa = PBXGroup;
+			children = (
+				3537B037F5F7BB7FC05C754CD28ED49E /* Pods-KingBirdTest-acknowledgements.markdown */,
+				5F07286C6D770DAA6CCAF12648706029 /* Pods-KingBirdTest-acknowledgements.plist */,
+				D5380C03F805BCC4C9037D53537D7C9A /* Pods-KingBirdTest-dummy.m */,
+				8DF36C91207FABF3874316BF2B22656B /* Pods-KingBirdTest-frameworks.sh */,
+				755B6F16C01C0FFF9449FA71B71ECA89 /* Pods-KingBirdTest-resources.sh */,
+				BE873CA46421AA37CF9CBF191FFBA6D5 /* Pods-KingBirdTest.debug.xcconfig */,
+				FCBD23420392BF7D3A10B67C3EA15DFB /* Pods-KingBirdTest.release.xcconfig */,
+			);
+			name = "Pods-KingBirdTest";
+			path = "Target Support Files/Pods-KingBirdTest";
+			sourceTree = "<group>";
+		};
+		6354A0AE313AE2318B704AD80EE9AC88 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C8AD595C04995299CC73D31F0F7280A /* RaptureXML.xcconfig */,
+				801E9F271FEC6CF345724860D82F5757 /* RaptureXML-dummy.m */,
+				D3BBF0AD639371F8E70E61B55EE23FD8 /* RaptureXML-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RaptureXML";
+			sourceTree = "<group>";
+		};
+		7B3F4C81E75C3A064CD6303086ED9CA1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EA22757217A26B8B7B2B9FD61D48AC88 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4FEEA42E1D983C939D16C3496FE6A287 /* Pods */,
+				F5A9E334891CD253A011F269C50A762E /* Products */,
+				3FBE5DBE92DE188531706C773CF852F7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		899CD6976E5FA7F2D728251B0288F170 /* UIImage+SVG */ = {
+			isa = PBXGroup;
+			children = (
+				33C2C1C34885A95369CAAF8309985965 /* PocketSVG.h */,
+				4A1F5F39A3197B692725C78D2653922C /* PocketSVG.m */,
+				E1E4AE383C5E0D7A41AE42D8C90651B3 /* SVGImageCache.h */,
+				673CB570712CAC2F4FA9EF0D607012C5 /* SVGImageCache.m */,
+				FBADDCC8A4E2DA36D9F35065E7511B63 /* UIImage+SVG.h */,
+				D92C597F4F50528BDC714F721BA67ACC /* UIImage+SVG.m */,
+				4AC588DF86928B0FC198AD45387822F7 /* Support Files */,
+			);
+			path = "UIImage+SVG";
+			sourceTree = "<group>";
+		};
+		90CD9226E81AB6EEA6499D982AC18AC6 /* RaptureXML */ = {
+			isa = PBXGroup;
+			children = (
+				6CA5574D7AD19EDC5E1376D4A62B7E49 /* RXMLElement.h */,
+				0FF0CA104D95DE75BE780E95C5547AEF /* RXMLElement.m */,
+				6354A0AE313AE2318B704AD80EE9AC88 /* Support Files */,
+			);
+			path = RaptureXML;
+			sourceTree = "<group>";
+		};
+		B3A1C994346748753421ADE3C649B7D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27E198632ABB566CA1286B85C8084542 /* GoogleMaps.framework */,
+				4A9231D8D38E5840CBF53C898F743034 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF19DBA56AAEB6469198F3C1F198F923 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4472973BED9FE89A38441F9D306C561D /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		DEC04FBC07E9CA75B80FE104AB2062B1 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				B3A1C994346748753421ADE3C649B7D5 /* Frameworks */,
+				CF19DBA56AAEB6469198F3C1F198F923 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		EA22757217A26B8B7B2B9FD61D48AC88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1EB3498BA9F7BC5AB433565CE72D1A4E /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5A9E334891CD253A011F269C50A762E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6F7137776A49AA354F0C4D4DD34B7BCE /* libPods-KingBirdTest.a */,
+				44F25D81EBA2B09789C30234B4818791 /* libRaptureXML.a */,
+				2CC3C8CA40B24CB021E23FFCEA9BC84C /* libUIImage+SVG.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		77CA13418A74DEC1597C9F10E54D94FE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0B2819C2AA22DD9687971A1F2B00C7 /* PocketSVG.h in Headers */,
+				C3949E303DB35B088739627C038D7B0E /* SVGImageCache.h in Headers */,
+				AF237CA007154D002EBEC32B887E8F6B /* UIImage+SVG.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AA3988B5121EFE9396FB0AD4C5621CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59262384C1CAB2095DA9A8908F9297AE /* RXMLElement.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		38CC936AF73BB327EC6F3C90BEFD94EA /* Pods-KingBirdTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EC67EDBF6BFCFA2DCB3B7CF97A4179B /* Build configuration list for PBXNativeTarget "Pods-KingBirdTest" */;
+			buildPhases = (
+				ABE8416C7FF59BC9792AB78F606ED352 /* Sources */,
+				142664FB92FF6DDB896769D2C69D9C03 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3E6CC3BF0E7A53261B51465A78435D3 /* PBXTargetDependency */,
+				42F86011028262A4FA2398CAB9FF3A18 /* PBXTargetDependency */,
+			);
+			name = "Pods-KingBirdTest";
+			productName = "Pods-KingBirdTest";
+			productReference = 6F7137776A49AA354F0C4D4DD34B7BCE /* libPods-KingBirdTest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		AEC884F5CF4170A006714A31371F8C66 /* UIImage+SVG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E97040775115C0C0CC04F97D22C32D1 /* Build configuration list for PBXNativeTarget "UIImage+SVG" */;
+			buildPhases = (
+				BBD80B904189CB138279A2E6D57D4608 /* Sources */,
+				E68EE377AB15AB858B02DA168D60703D /* Frameworks */,
+				77CA13418A74DEC1597C9F10E54D94FE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C9C6EF2512E001C68B0422517B675C7 /* PBXTargetDependency */,
+			);
+			name = "UIImage+SVG";
+			productName = "UIImage+SVG";
+			productReference = 2CC3C8CA40B24CB021E23FFCEA9BC84C /* libUIImage+SVG.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BAE79A19D211908A6811984B1DCC6898 /* RaptureXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B43C883F1F642318F76E72EDA7415036 /* Build configuration list for PBXNativeTarget "RaptureXML" */;
+			buildPhases = (
+				444526F1EA6694CEA7546570E8E45990 /* Sources */,
+				37EEDC337BF7D7F4C1E024D001AC6968 /* Frameworks */,
+				9AA3988B5121EFE9396FB0AD4C5621CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaptureXML;
+			productName = RaptureXML;
+			productReference = 44F25D81EBA2B09789C30234B4818791 /* libRaptureXML.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F5A9E334891CD253A011F269C50A762E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38CC936AF73BB327EC6F3C90BEFD94EA /* Pods-KingBirdTest */,
+				BAE79A19D211908A6811984B1DCC6898 /* RaptureXML */,
+				AEC884F5CF4170A006714A31371F8C66 /* UIImage+SVG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		444526F1EA6694CEA7546570E8E45990 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2087B1E62B559EC65D03C7547D892749 /* RaptureXML-dummy.m in Sources */,
+				BF81DB5DDD50F413C17A38D943355BCA /* RXMLElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABE8416C7FF59BC9792AB78F606ED352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259C4660DB4BFE8C474607BB3D62AB5A /* Pods-KingBirdTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD80B904189CB138279A2E6D57D4608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3055EA97FD63280735BC7805C6F7F30 /* PocketSVG.m in Sources */,
+				99CB0F7C34238A106311FFBD28F2184C /* SVGImageCache.m in Sources */,
+				EB189B02ADD350670D36FE58EA25BEB9 /* UIImage+SVG-dummy.m in Sources */,
+				1A66CE7331617483503C61FD6309E237 /* UIImage+SVG.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C9C6EF2512E001C68B0422517B675C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RaptureXML;
+			target = BAE79A19D211908A6811984B1DCC6898 /* RaptureXML */;
+			targetProxy = 368CE029016EA5978FB544882F383628 /* PBXContainerItemProxy */;
+		};
+		42F86011028262A4FA2398CAB9FF3A18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIImage+SVG";
+			target = AEC884F5CF4170A006714A31371F8C66 /* UIImage+SVG */;
+			targetProxy = E9CD0861B053FCAB6751C0C3D85711D0 /* PBXContainerItemProxy */;
+		};
+		A3E6CC3BF0E7A53261B51465A78435D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RaptureXML;
+			target = BAE79A19D211908A6811984B1DCC6898 /* RaptureXML */;
+			targetProxy = FC4ECC77370E5FCDAC168EEA4D915BF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		16D86747D177466CEB86F7EE285DB153 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE873CA46421AA37CF9CBF191FFBA6D5 /* Pods-KingBirdTest.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71AB889B8D43138984C894F8B35DEABE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 483019C0935F10AAD411E9F97A1F71C5 /* UIImage+SVG.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIImage+SVG/UIImage+SVG-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		A01F981E5E338392358D5C9A5AD57A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 483019C0935F10AAD411E9F97A1F71C5 /* UIImage+SVG.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/UIImage+SVG/UIImage+SVG-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+		C4D5D93026C4A29B9CA55AA815F852A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCBD23420392BF7D3A10B67C3EA15DFB /* Pods-KingBirdTest.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D69DDBE21A07DC732D18AEC2D8CD370C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C8AD595C04995299CC73D31F0F7280A /* RaptureXML.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RaptureXML/RaptureXML-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+		F5D3AAAF1D473EB4448A1DD0D90A3AA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C8AD595C04995299CC73D31F0F7280A /* RaptureXML.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RaptureXML/RaptureXML-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EC67EDBF6BFCFA2DCB3B7CF97A4179B /* Build configuration list for PBXNativeTarget "Pods-KingBirdTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16D86747D177466CEB86F7EE285DB153 /* Debug */,
+				C4D5D93026C4A29B9CA55AA815F852A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E97040775115C0C0CC04F97D22C32D1 /* Build configuration list for PBXNativeTarget "UIImage+SVG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71AB889B8D43138984C894F8B35DEABE /* Debug */,
+				A01F981E5E338392358D5C9A5AD57A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B43C883F1F642318F76E72EDA7415036 /* Build configuration list for PBXNativeTarget "RaptureXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D3AAAF1D473EB4448A1DD0D90A3AA1 /* Debug */,
+				D69DDBE21A07DC732D18AEC2D8CD370C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
